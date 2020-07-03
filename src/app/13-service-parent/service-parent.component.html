@@ -1,0 +1,23 @@
+<p>service-parent works!</p>
+
+<h2>Mission Control</h2>
+
+<!-- when click, mission service will announceMission -->
+<button (click)="announce()">Announce Mission</button>
+
+<!-- Pass each astronaut to child component -->
+<app-service-child
+*ngFor="let astronaut  of astronauts"
+[astronaut]="astronaut">
+</app-service-child>
+
+
+<!-- log event out -->
+<h3>History</h3>
+<ul>
+  <li *ngFor="let event of history">
+  {{ event }}
+  </li>
+</ul>
+
+
