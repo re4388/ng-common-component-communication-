@@ -3,6 +3,9 @@
 Angular 官網筆記
 [Angular - 元件之間的互動](https://angular.tw/guide/component-interaction#parent-calls-an-viewchild)
 
+## TODO
+- [ ] 如何對以下這些例子寫單元測試？ 官網有範例可以看
+
 ## Personal Note
 1. 爸爸傳給兒子1
 適用情況：
